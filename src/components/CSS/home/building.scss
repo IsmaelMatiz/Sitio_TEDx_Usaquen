@@ -1,0 +1,132 @@
+.layerbg-building-p{
+    height: 100vh;
+    background-image: url(https://tedxwinterpark.com/wp-content/uploads/2021/02/tedx.jpg);
+    background-size: cover;
+
+    .layerdif-building-p{
+        height: 100vh;
+        width: 100%;
+        backdrop-filter: blur(7px);
+    }
+
+    .layercnt-building-p{
+        height: 100vh;
+        color: white;
+
+        .p-2{
+            width: 60%;
+        }
+
+        @media only screen and (min-width: 400px) {
+            h1{
+                font-size: 90px;
+            }
+
+            p{
+                font-size: larger;
+            }
+
+            .social-icons{
+                transition: 0.3s;
+                font-size: 80px;
+                color: white;
+            }
+
+            .ins-icon{
+                font-size: 80px;
+            }
+
+            .ins-icon-container {
+                position: relative;
+                margin-top: -11%;
+                color: white;
+            }
+
+            .ins-colorful{
+                width: 70px;
+                height: 70px;
+            }
+
+        }
+
+        @media only screen and (max-width: 380px) {
+
+            p{
+                font-size: small;
+            }
+
+            .social-icons{
+                transition: 0.3s;
+                font-size: 40px;
+                color: white;
+            }
+
+            .em-icon{
+                font-size: 50px;
+            }
+
+            .ins-icon{
+                font-size: 40px;
+            }
+
+            .ins-icon-container {
+                position: relative;
+                margin-top: -18%;
+                color: white;
+            }
+            .ins-colorful{
+                width: 34px;
+                height: 34px;
+            }
+        }
+
+        h1{
+            text-align: center;
+            font-weight: bolder;
+            font-family: 'helvetica';
+        }
+        p{
+            text-align: center;
+        }
+
+    }
+}
+
+.em-icon{
+    font-size: 100px;
+    color: white;
+    transition: 0.3s;
+    :hover{
+        color: red;
+        transition: 0.3s;
+    }
+}
+
+.pho-icon{
+
+    :hover{
+        color: rgb(27, 27, 182);
+        transition: 0.3s;
+    }
+}
+
+
+.ins-icon {
+    transition: opacity 0.3s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ins-icon.hidden {
+    opacity: 0;
+}
+
+.ins-colorful{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.ins-icon-container:hover {
+    opacity: 1;
+}
