@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+.top-pic {
+    position: relative; /* Para que los elementos absolutos se posicionen respecto a este contenedor */
+    background-image: url("../../assets/picLogo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+.Ted_Header {
+    position: relative; /* Necesario para mantener el contexto de posicionamiento */
+    z-index: 2; /* Para asegurarse de que Ted_Header esté por encima de layer-bg-dark */
+}
+
+.layer-bg-dark {
+    background-color: rgba(0, 0, 0, 0.5); /* Ajusta la opacidad y el color del velo oscuro */
+    padding-top: 18%;
+    padding-bottom: 18%;
+    display: flex; /* Para centrar el texto verticalmente */
+    justify-content: center; /* Para centrar el texto horizontalmente */
+    align-items: center; /* Para centrar el texto verticalmente */
+    z-index: 2; /* Para asegurarse de que esté sobre la imagen de fondo */
+}
+
+.txt-top-pic{
+    font-family: "Julius Sans One";
+    color: white;
+}

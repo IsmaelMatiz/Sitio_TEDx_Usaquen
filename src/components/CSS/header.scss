@@ -1,0 +1,107 @@
+.ted_nav{
+    background-color: rgba(0, 0, 0, 0.55);
+    z-index: 3;
+
+    --img1: scale(1);
+    --img2: scale(0);
+}
+
+.ted_nav:has( .dropdown:target) {
+    --img1: scale(0);
+    --img2: scale(1);
+
+    --clip: clip-path: inset(0 0 0 0);
+}
+
+.ted_nav_container{
+    width: 90%;
+    margin: 0 auto;
+    height: 70px;
+
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-template-areas: "title img";
+    justify-content: space-between;
+
+    overflow: hidden;
+}
+
+.left_container {
+    display: flex;
+    align-items: center; /* Alinea los elementos verticalmente en el centro */
+}
+
+.ted_nav_logo {
+    margin-right: 10px; /* Espacio entre la imagen y el título */
+    width: 125px;
+    height: 40px;
+}
+
+.ted_nav_title {
+    color: white;
+    font-family: "Inherit", sans-serif;
+    grid-area: title;
+    font-size: 1.5em; /* Ajusta el tamaño de la fuente según tu preferencia */
+    margin: 0; /* Elimina el margen predeterminado del h1 */
+}
+
+.nav_menu{
+    grid-area: img;
+    font-size: xx-large;
+    color: whitesmoke;
+    position: relative;
+    z-index: 10;
+
+    transform: var(--img1);
+}
+
+.nav_menu--second{
+    transform: var(--img2);
+}
+
+.dropdown{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.705);
+    width: 45%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    
+    clip-path: var(--clip, inset(0 0 100% 100%));
+    transition: clip-path 1s;
+}
+
+.nav_icon{
+    width: 30px;
+    display: block;
+}
+
+.dropdown_list{
+    list-style: none;
+}
+
+.dropdown_link{
+    color: whitesmoke;
+    padding: 1em .7em;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+}
+
+@media (max-width: 1080px) {
+    .ted_nav_title {
+        font-size: large;
+    }
+
+    .ted_nav_logo{
+        width: 95px;
+        height: 30px;
+    }
+    .dropdown{
+        width: 75%;
+        height: 130%;
+    }
+}
