@@ -6,6 +6,7 @@ import img_redForm_2 from "../assets/img_inscribete.png"
 import { PathSection } from "../components/JSX/path";
 import { Sponsors } from "../components/JSX/sponsors";
 import { Speaker } from "../components/JSX/speaker";
+import { FooterTed } from "../components/JSX/footerTed";
 
 export function HomeScreen() {
 
@@ -20,17 +21,21 @@ export function HomeScreen() {
                 </div>
             </div>
 
-            <ProjectSection />
+            <div id="project-section">
+                <ProjectSection/>
+            </div>
 
-            <RedForm 
-                bigImg={1}
-                title={"¡Únete a nosotros en un evento que no querrás perderte!"}
-                paragraph={"Estamos emocionados de invitarte a este evento lleno de inspiración, aprendizaje y diversión. Conéctate con personas apasionadas y expertos en diversos campos mientras exploramos temas fascinantes y compartimos ideas innovadoras.¡Reserva tu lugar ahora mismo para asegurarte de no perderte esta experiencia única!"}
-                buttonLink={""}
-                emailLink={"mailto:tedxyouthusaquen@gmail.com"}
-                instaLink={"https://www.instagram.com/tedxyouthusaquen/?hl=es"}
-                showIcons={true}
-            />
+            <div id="asistir">
+                <RedForm 
+                    bigImg={1}
+                    title={"¡Únete a nosotros en un evento que no querrás perderte!"}
+                    paragraph={"Estamos emocionados de invitarte a este evento lleno de inspiración, aprendizaje y diversión. Conéctate con personas apasionadas y expertos en diversos campos mientras exploramos temas fascinantes y compartimos ideas innovadoras.¡Reserva tu lugar ahora mismo para asegurarte de no perderte esta experiencia única!"}
+                    buttonLink={""}
+                    emailLink={"mailto:tedxyouthusaquen@gmail.com"}
+                    instaLink={"https://www.instagram.com/tedxyouthusaquen/?hl=es"}
+                    showIcons={true}
+                />
+            </div>
 
             <br />
             <br />
@@ -59,12 +64,15 @@ export function HomeScreen() {
             <br />
 
 
-
-            <PathSection />
+            <div id="recorrido">
+                <PathSection />
+            </div>
 
             <Sponsors />
             
-            <Speaker />
+            <div id="speaker">
+                <Speaker />
+            </div>
 
             <RedForm 
                 bigImg={2}
@@ -75,6 +83,10 @@ export function HomeScreen() {
                 instaLink={"https://www.instagram.com/tedxyouthusaquen/?hl=es"}
                 showIcons={false}
             />
+
+            <div id="contact">
+                <FooterTed />
+            </div>
         </>
     )
 }

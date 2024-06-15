@@ -1,0 +1,44 @@
+html{
+    background-color: #202020;
+}
+
+footer{
+    width: 100%;
+    margin-top: 44.9%;
+    background-color: #202020;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    .row{width: 100%;}
+    .head-foot{
+        font-size: 24px;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .iconEmail{
+        font-size: 50px;
+    }
+
+    .iconInsta{
+        font-size: 40px;
+        background-color: white;
+        color: #202020;
+        border-radius: 50%;
+        padding: 5px;
+    }
+
+    .iconWa{
+        font-size: 50px;
+    }
+
+    .copyR{
+        text-align: center;
+    }
+}
+
+@media (max-width: 1080px) {
+    footer{
+        margin-top: 100%;
+    }
+}

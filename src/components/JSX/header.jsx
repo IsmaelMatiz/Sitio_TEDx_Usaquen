@@ -25,35 +25,35 @@ export function Ted_Header() {
 
                     <ul className="dropdown" id="menu">
                         <li className="dropdown_list">
-                            <a href="#" className="dropdown_link">
+                            <a href="#project-section" className="dropdown_link">
                                 <span className="dropdown_span">
                                     Conoce el proyecto
                                 </span>
                             </a>
                         </li>
                         <li className="dropdown_list">
-                            <a href="#" className="dropdown_link">
+                            <a href="#asistir" className="dropdown_link">
                                 <span className="dropdown_span">
                                     Formulario para ser asistir al evento
                                 </span>
                             </a>                            
                         </li>
                         <li className="dropdown_list">
-                            <a href="#" className="dropdown_link">
+                            <a href="#recorrido" className="dropdown_link">
                                 <span className="dropdown_span">
                                     Conoce nuestro recorrido
                                 </span>
                             </a>
                         </li>
                         <li className="dropdown_list">
-                            <a href="#" className="dropdown_link">
+                            <a href="#speaker" className="dropdown_link">
                                 <span className="dropdown_span">
                                     Formulario para ser speaker
                                 </span>
                             </a>
                         </li>
                         <li className="dropdown_list">
-                            <a href="#" className="dropdown_link">
+                            <a href="#contact" className="dropdown_link">
                                 <span className="dropdown_span">
                                     Contacto
                                 </span>
