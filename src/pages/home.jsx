@@ -5,6 +5,7 @@ import img_redForm_1 from "../assets/img_unete.png"
 import img_redForm_2 from "../assets/img_inscribete.png"
 import { PathSection } from "../components/JSX/path";
 import { Sponsors } from "../components/JSX/sponsors";
+import { Speaker } from "../components/JSX/speaker";
 
 export function HomeScreen() {
 
@@ -63,6 +64,17 @@ export function HomeScreen() {
 
             <Sponsors />
             
+            <Speaker />
+
+            <RedForm 
+                bigImg={2}
+                title={"¡Estamos ansiosos por escuchar tus ideas! "}
+                paragraph={"¿Te apasiona compartir tus conocimientos y experiencias con una audiencia ávida de aprender? ¡Esta es tu oportunidad para ser speaker en nuestro próximo evento! Buscamos voces inspiradoras y líderes en sus campos que estén dispuestos a compartir ideas innovadoras, perspectivas únicas y consejos prácticos.¡Presenta tu solicitud para ser speaker hoy y únete a la conversación!"}
+                buttonLink={""}
+                emailLink={"mailto:tedxyouthusaquen@gmail.com"}
+                instaLink={"https://www.instagram.com/tedxyouthusaquen/?hl=es"}
+                showIcons={false}
+            />
         </>
     )
 }

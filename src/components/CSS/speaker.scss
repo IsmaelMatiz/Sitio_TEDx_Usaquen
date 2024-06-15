@@ -1,0 +1,31 @@
+
+.spk-container{
+    background-color: #202020;
+    color: white;
+    font-family: "Kantumruy Pro", sans-serif;
+    font-size: 20px;
+    padding: 3%;
+
+    .spk-title{
+        font-family: "Jura", sans-serif;
+        text-align: center;
+        font-size: 48px;
+        padding: 5%;
+    }
+
+    img{
+        width: 80%;
+    }
+
+    .spk-desc{
+        font-size: 24;
+    }
+}
+
+@media (max-width: 1080px) {
+    .spk-container{
+        img{
+            width: auto;
+        }
+    }
+}
