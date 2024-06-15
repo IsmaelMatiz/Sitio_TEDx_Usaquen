@@ -1,3 +1,4 @@
+
 .ted_nav{
     background-color: rgba(0, 0, 0, 0.55);
     z-index: 3;
@@ -40,6 +41,7 @@
 .ted_nav_title {
     color: white;
     font-family: "Inherit", sans-serif;
+    font-weight: 10px;
     grid-area: title;
     font-size: 1.5em; /* Ajusta el tamaño de la fuente según tu preferencia */
     margin: 0; /* Elimina el margen predeterminado del h1 */
@@ -94,6 +96,7 @@
 @media (max-width: 1080px) {
     .ted_nav_title {
         font-size: large;
+        font-weight: 100;
     }
 
     .ted_nav_logo{

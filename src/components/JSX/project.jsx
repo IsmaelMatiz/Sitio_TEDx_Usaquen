@@ -1,5 +1,5 @@
 import img_proj from "../../assets/img_q_es_ted.png"
-import '../CSS/header.scss'
+import '../CSS/project.scss'
 
 export function ProjectSection() {
     return(
@@ -19,22 +19,22 @@ export function ProjectSection() {
                     organización.
                 </p>
             </div>
-            <h2 className="por-sub-title">¿Que es TEDx Youth Usaquen?</h2>
-            <div className="container">
-                <img src={img_proj} alt="Img que es ted" className="pro-img" />
-                <div className="txt_q_ted">
+            <h2 className="container por-sub-title">¿Que es TEDx Youth Usaquen?</h2>
+            <div className="myContainer">
+            <div className="pro-float-box">
+                    <div className="txt_q_ted">
                     TEDxYouth@Usaquén es el evento más grande de Colombia organizado por voluntarios 
                     jóvenes, que tiene como objetivo dar voz a poderosas ideas de la comunidad que 
-                    puedan contagiar e inspirar a la juventud bogotana. <br />En TEDxYouth@Usaquén creemos 
-                    que los jóvenes no somos los actores del futuro, sino que somos los actores del 
-                    presente y por eso trabajamos para identificar ideas poderosas que estén 
-                    transformando nuestro entorno.
-                </div>
+                    puedan contagiar e inspirar a la juventud bogotana. En TEDxYouth@Usaquén creemos 
+                    que los jóvenes no somos los actores del futuro, sino que somos los actores del presente y por eso trabajamos para identificar ideas poderosas que estén transformando nuestro entorno. 
+                    </div>
+                </div>                
+                <img src={img_proj} alt="Img que es ted" className="pro-img" />                
             </div>
-            <h5 className="pro-txt-divisor">
-                Éste es el espacio para darles visibilidad a las grandes ideas, las que más resuenan, las 
-                que contagian a la gente y sobre todo que pueden mejorar el entorno en el que vivimos.
-            </h5>
+                <h5 className="pro-txt-divisor">
+                    Éste es el espacio para darles visibilidad a las grandes ideas, las que más resuenan, las 
+                    que contagian a la gente y sobre todo que pueden mejorar el entorno en el que vivimos.
+                </h5>
         </>
     )
 }

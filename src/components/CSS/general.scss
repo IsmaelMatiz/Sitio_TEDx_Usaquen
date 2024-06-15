@@ -28,3 +28,9 @@
     font-family: "Julius Sans One";
     color: white;
 }
+
+@media (max-width: 1080px) {
+    .top-pic {
+        background-attachment: initial;
+    }
+}
