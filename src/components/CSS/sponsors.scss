@@ -1,0 +1,32 @@
+
+.sp-title{
+    font-family: "Jura",sans-serif;
+    font-size: 36px;
+    padding: 4%;
+}
+
+
+.sp-logo{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(209, 209, 209);
+    border-radius: 50%;
+}
+
+.sp-row{
+    width: 100%;
+    padding-left: 8%;
+}
+
+.sp-devs{
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    padding-left: 4%;
+    padding-top: 4%;
+}
+
+@media (max-width: 1080px) {
+    .sp-logo{
+        margin-bottom: 5%;
+    }
+}

@@ -4,6 +4,7 @@ import { RedForm } from "../components/JSX/redForm";
 import img_redForm_1 from "../assets/img_unete.png"
 import img_redForm_2 from "../assets/img_inscribete.png"
 import { PathSection } from "../components/JSX/path";
+import { Sponsors } from "../components/JSX/sponsors";
 
 export function HomeScreen() {
 
@@ -60,7 +61,7 @@ export function HomeScreen() {
 
             <PathSection />
 
-            
+            <Sponsors />
             
         </>
     )
