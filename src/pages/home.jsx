@@ -3,6 +3,7 @@ import { ProjectSection } from "../components/JSX/project";
 import { RedForm } from "../components/JSX/redForm";
 import img_redForm_1 from "../assets/img_unete.png"
 import img_redForm_2 from "../assets/img_inscribete.png"
+import { PathSection } from "../components/JSX/path";
 
 export function HomeScreen() {
 
@@ -28,6 +29,38 @@ export function HomeScreen() {
                 instaLink={"https://www.instagram.com/tedxyouthusaquen/?hl=es"}
                 showIcons={true}
             />
+
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            
+            <br />
+            <br />
+            <br />
+
+
+
+            <PathSection />
+
+            
             
         </>
     )

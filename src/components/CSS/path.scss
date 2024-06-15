@@ -1,0 +1,30 @@
+
+.container-path-sec{
+    position: relative;
+    width: 99.4%;
+    background-image: url("../../assets/bg_path.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+}
+
+.row-container-path-sec{
+    font-family: "Jura";
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    padding: 40px;
+}
+
+.gr-container-path-sec{
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 1081px) {
+    .path-sec-footer{
+        background-color: #C0BEBE;
+        height: 25px;
+    }
+}
